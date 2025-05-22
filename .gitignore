@@ -1,0 +1,36 @@
+# Nuxt build and output
+.nuxt/
+.output/
+.cache/
+.nitro/
+dist/
+.data/
+
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# VSCode and IDEs
+.vscode/
+.idea/
+.fleet/
+
+# macOS
+.DS_Store
+
+# System
+Thumbs.db
+
+# Environment variables
+.env
+.env.*         # includes .env.local, .env.production etc.
+!.env.example  # keep this to document required vars
+
+# npm or yarn lockfile
+package-lock.json
+
+# Optional: test output
+coverage/
